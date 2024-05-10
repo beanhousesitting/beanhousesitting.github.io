@@ -149,7 +149,7 @@
 
     <div id="car-washing" class="section">
         <h2>Car Washing</h2>
-        <p>Get your car sparkling clean! For a small car you can expect about $18, and small trucks and SUVs you can expect around $20. Larger vehicles will cost around $25-$30. These prices are aproxamite and will be addresed on a case by case basis.This service may not be avaliable on certan dates.</p>
+        <p>Get your car sparkling clean! For a small car you can expect about $18, and small trucks and SUVs you can expect around $20. Larger vehicles will cost around $25-$30. These prices are aproxamite and will be addresed on a case by case basis. This service may not be avaliable on certan dates.</p>
         <img src="https://th.bing.com/th/id/OIP.6WKDaEllZF6VQrsnREBKKgHaEy?w=281&h=183&c=7&r=0&o=5&pid=1.7" alt="Car Washing" class="section-image">
     </div>
 
