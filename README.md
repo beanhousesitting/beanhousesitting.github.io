@@ -161,7 +161,7 @@
 
     <div id="leaf-raking" class="section">
         <h2>Leaf Raking</h2>
-        <p>Let us take care of this tedious task, prices are detrumend on a case by case basis.</p>
+        <p>Let us take care of this tedious task, prices are determined on a case by case basis.</p>
         <img src="https://www.lawnstarter.com/blog/wp-content/uploads/2020/07/leaf-rake.jpg" alt="Leaf Raking" class="section-image">
     </div>
 
