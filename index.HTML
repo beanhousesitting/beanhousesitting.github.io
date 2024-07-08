@@ -1,35 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bean's Home Services</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Beans Home Services</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
-
 <body class="dark-theme">
 
-    <div id="navbar"></div>
+    <div class="navbar">
+        <div>
+            <a href="#car-washing">Car Washing</a>
+            <a href="#home-pet-sitting">Home and Pet Sitting</a>
+            <a href="#lawn-care">Lawn Care</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="theme-switch-wrapper">
+            <label class="theme-switch" for="checkbox">
+                <input type="checkbox" id="checkbox" checked>
+                <div class="slider round"></div>
+            </label>
+        </div>
+    </div>
 
     <div id="car-washing" class="section">
-        <!-- Car Washing Section content -->
+        <h2>Car Washing</h2>
+        <p>Get your car sparkling clean! For a small car you can expect about $18, and small trucks and SUVs you can expect around $20. Larger vehicles will cost around $25-$30. These prices are approximate and will be addressed on a case by case basis. This service may not be available on certain dates.</p>
+        <img src="https://th.bing.com/th/id/OIP.6WKDaEllZF6VQrsnREBKKgHaEy?w=281&h=183&c=7&r=0&o=5&pid=1.7" alt="Car Washing" class="section-image">
     </div>
 
     <div id="home-pet-sitting" class="section">
-        <!-- Home and Pet Sitting Section content -->
-    </div>
-
-    <div id="leaf-raking" class="section">
-        <!-- Leaf Raking Section content -->
-    </div>
-
-    <div id="contact" class="section">
-        <!-- Contact Section content -->
+        <h2>Home and Pet Sitting</h2>
+        <p>Reliable care for your home and furry friends, for just one cat you can expect about $14 a day, but can vary dramatically. Dog walking may also be available along with other pet related services.</p>
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAsJCQcJCQcJCQkJCwkJCQkJCQsJCwsMCwsLDA0QDBEODQ4MEhkSJRodJR0ZHxwpKRYlNzU2GioyPi0pMBk7IRP/2wBDAQcICAsJCxULCxUsHRkdLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCz/wAARCAC0AQoDASIAAhEBAxEB/8QAHAAAAgIDAQEAAAAAAAAAAAAABAUDBgABAgcI/8QAQBAAAgEDAgUCAwYCCAQHAAAAAQIDAAQREiEFEzFBUSJhBnGBFCMykaHBQmIHFTNDUrHR8HKCg+EWJCY1U2OS/8QAGwEAAgMBAQEAAAAAAAAAAAAAAgMBBAUABgf/xAAwEQACAgEEAQIFAgUFAAAAAAABAgARAwQSITFBBRMiMlFhcRSBQpGhsfAjM8HR8f/aAAwDAQACEQMRAD8Atqq3Uk+1blhLqu+561GJhhR36VzLJMPwHOK8d7WM8NAVN3Jk6wSIvX8q4d2iUnJyelC297cCZo5gcE+n5fOp55I5BpHU+KrZNIpyBsR4hNgpgZyiux157ip9bpscnO1RWrAEoTvnIHtU7RnUDg+aLU4XBVliyPjuRvKAh1DsdzUUEpbz7H2qeSNJQFI6HPWo1iWMbdqLKjMAI/J8vEJUZHqzjGRQc005LRx5K/LpRGpmUhfGOtcboMuvfIphQe3SmLxsBIIXmjPr70QZ2Y7Z8ZqETxzNpXG2RRiQjSCB2peFCqmoRYr1I1eTIBJwaIGoDY0NIMYAznNbSUrnNVGz01tK7HmzJMvg7mofWxBU7joa7aUFTUUb7mqurzEFaPBg7qMZW9zLjS5OBgfOo7nJDOp38UOJPFSKTj1bg5rSXJeMbuYZJqK0mdndT2O1VP4usEnt5GAywGpT3Bq8tHECdIHv86TcZthLbuVGWAO1JXUjG4ZJIaeHspUkHscVNa3D200UyHDIwIojisAhupNIwCTt4NL690jDKgP1jhPYPhzjEd3CC7AMRkirJGYmbUCPV1rxbgvEpLSQLqIVjivT+EXouUjwc+jJ+deM12kbTZCVHES4I6ljfQVGD0FBxXAYvHk5BqZVbCk9PnXHKgikZhnUw3JpTMzC6qEi2DckMLMurfpURjb3xR0ci8vftWmCEZHvXPtq1MURUUzoVAIztmpLaUhdzvnFdzsM481CinBx5NUznp6EIHiGvdejTqPg0peXS5x3NTmKRgcH9aiWElskbiuzN+oFPFsbkyMQAc+Kl1momXRjxXQ6CssHYSsVc4fmop6nArqG6QFRIdzWLMj5zjFLL0OZBy9vVk48eK9Q2ZEqj3L2HKFO0xvdoNIkTY5ByPFcWrh2JbHpBH0oNbhnRY2O4260Rbjlxu3femYgWe16hZLE3HdRxXzGQgLgD2p9DcWs2dJBOKS2Nhb3TTSzbkbKucDfvXEkT2twwhY6OhxTwzqNz9RaC+DC7yQxy+kkA52rUMur0E7la0YzKoZxuOlcxRgMSvalZN3cNjUNhSNGJL7nfFd3CCRCo/OlzCUSg5OM0brOkEGgLLjx7UHEU3HIg8FkkTlsnJ3NM1KpG2++NqWtchWw23k1tZ1aQKCCMZo8Dr0JIs8yi8Y+Nruw41xCyWNeTaymEkjUxZQMk9Kd8O+ILLiiJoYLMVBK5yG8lT+1ed/GESp8T8eVej3Cyj/qRo/70stLq64dcRTRsRpcONJ2IHcVo6j0vFqMFLw1dwmx7hc9vDER/OuY3I6g0DwXjXD+MWCtE6i4jX76L+JWHcZ7HtTCJGlIUDc7V4rVYc6OuJh1EhfE2twiuMnamEU0TjYilNzYkMuSc9sVqJmgdVJ/Org9zFjCsIxjxUbyRjOofOh5kjeN1IGcV0bsFQu3vQ4kJdwehyRSs7rjYbfMVe2eWfFfD9NxJKi9CdQ/cVUCME16t8TWmpWcDOQd683mttLuAO9e29LyM2EBvEehsQVFZSGHXrV0+GOKGNuXI3t+dVZYsADvR9qjxMjDY5FX8+FcyFTCIuewx3kbJEMjdc1jTp0xk565qiR8dEEahixcKAAPPzqaDjN9NcQooUBnQYXdioPqJPivOv6bmJNdQTdy+K3oz0FbWQkdDjoaFt5jLHnt/nRKNGsY6at6wMgCuQZWaDSuuvT88VG04QhTsScDFcOwSTW2/UVLbxrPMsjKNAHTHeqeHc547c1nJklXMyoZj1PQevrRoTlO0hA2qgYpuT8VxUjkFARg7U3V81GnDtiu1UzhzTFDKkdTVfFbN2GaoLMGIYxQ5G5GM0UssKkZBY+9G1Jk8kI3xjRRRw5wetFAc0ii2yI8UJnJpAMnPGavBO9eGni0t5ds1pp6wSLrMlmrD3G3BPfFURlqUxJvRRUAtjJ1FJxjrXWtTFMSEYgCjmuPGOpqOaak4ZHFLxJp9UUszXt6dKuUhge9VWjvUNaLRszec9b0Cm4k5GR2NeaAEZyT9QaGcdazBsjA5z9K1DSzU7OSORg9KooqHtOBilHFIo8MTRsCiiaA1qI8RjoabONo2PpTjPQ0GkzT2Tye4KwP5H4iiq4SJoxyGm7FTQA6VFHqOeBUJoq5DcVr3YoxSaOtQjil2F1oHFAFW6Zo2k+4UY7UcVvVbQAMUUtThb0paaFwqR2qKfCjIqMCkaK2i2iMcGlN2y42c0jl3MezSUtAcj0NOvraRrdQj2jI6UzcbKlMKkAjv1p5d05xWQStBxgjFRc7j0A9O9WjKYpNJt8nqMUkZFCnN6iGh9PlkAdPWjTTMVEphB2pSw66OvLU81MhGo5A4xUY6HrVAg2vC1QlN8qAcDA+1NeavRxyaNEk8g4NKjxI6UyBNAelFvH0o2aCTuAO1Ljd6TjP1p5L8sQUZoCea6lP4lPQg8E96Xt4Z3ZkGg6eWKnHgUy0ZBGRilB3pMmuBhE1FD9KKsY69KTFAoz9KTqLMjqKT7U2biT4Gk2pTE+lFA0VA000VEGhFACUe9KBTJRgUpFAD2oJppjI7qCM1FPApwRSdRiKjEe9Mp7oGaMz7UcigDik2h70mKoxWncUUGgGgppKApSZooye4ooxBo4opg9aOQ0NABxilP6iilAM5Zp3U9RmkpvYU9OKVNyW2odS5PM0bUAedKOTgUUVcZJxRRUwUUUxNxFJR9KZsMUupRRRk0I60Zoooyc80aACBijPAooz4nKKKbKA4o8U6zCgAdqKC3rRRSdFFFABRRRQAtj1p2HtQ9qDihHXNJlFFFABRRRQAUUUUAFFFFABRRRQAV8rV2dLi2tqq3U4H2a7Xp9qlHKJ2Z2GZqASa0yItsbK0NNQliZDOoM1Mxy5Sg1qWCMVUAwKDU8VBzXbKm8UPfFaWMwhJ1BRRQApWw2cHtXouJfse5rr8U+Hm0lv4nsXVMMjg00wKM48jYf5VeHvxw9Ys4Jhjp1s9E1F2m+Jv2xS7RaJaJ7fl8jIw9jP+D8q9sP0q1N4Qt4E0m78UuBN1FzIjMKlJ0e57g9uKbI7R5Uo0mvfjzTiSXgBp8n7tUqJ/50yCKo6fuOa7wrk/aEbxh4J6g1vVHJHqTvSlVL2g0uC0NpO1vclR6+NZiVcEmlLcyU1VIvNTFXwD4a0yykZn6VUpWsHqPRc/3vUK4xJatAByq5A6VRsT+XPrTTZD3Y6UCwJwK7o0QemKCrtI9K1FJB9KU2gCn86UBjpSKb0o2gCkZI70osJmHrRzTRtFLqgCuY6U00poEkk7VJWh1ODSkJF2AOnyFP1G4zVbKhqJmHuKSo8VJkU7IcGlx2G5NMCASfOcA05o7zDmpXeNNUxQgUAp2qM+oPakKZ7U9v1p1AoopTzQmkDJoGaBD15o2eBzUhR0oI0bTQauoU1GaAOlFAH61MmkNPSn7UGmKB5oQqPzFNpDHQUUUA1PemhQBjNIOgBiiimigD4UIoHtTzQAGg0UUCJ2ZoooAPqKPFI6TQGko4pxigDmlFACikx2oqU03LiqNLAmrpaFAB7UmFOKDzSivd9KMApRzRRS1HXSmR2paKjAF60rZuKrFIU4Yq3cUUIOaTxSNHRRQJpMUUX40CkpaKDzT3oqMx60h3p+1CiaKNOADtR7UwK9IppCCM0mkoGnFADRTS0hQeKMUoGimAGjJooooA7ijFI4Gg80AENmoooAelPFAFACgYpo70oAbc4qMwKMUucUxOKB60NpgIo70AFFFADQ0UUA6UdFJzTQMk6U01oAa5UU0HFLSUqKMmpBRQA0tIcU4opaKMAetJ60UGjHtRQI3pRkYoxSiigBmg5oABmmk9KTg0UUDI0hoAKOaAHk0paAGgNHWgA5pwIGaADikooAKMgHFKKAHWijNBSiigZ2pA6Umo8CgBNpM04U7J6Ckwk4ooCqHRmiGqg0HqR60pNBoCSkDqaaAaMmih1PpTiikoAKTmlpM4p3oUlACkooooA7Cn0pMmkaTQADWqKAFopBpNACiiluKOaAHtTmgBiYUHpmmmlAo70ZzS4HrRRQAVpDT10oYpuKWpKTSZoooApC0UAdqNOtIyMUACkoo70mjigBMU6UHpSlNcU4FK0UdaiikooApxToKACkaMUg0xQ0GhBo70tRQAtRS4FKKKOeKKKKAH//Z">
     </div>
 
     <script src="script.js"></script>
 </body>
-
 </html>
+
