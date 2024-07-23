@@ -1,1 +1,1 @@
-alert('We will be doing a all day car wash event on both the 19th and the 20th of this month, just email me at beanhousesitting@gmail.com to reserve your spot! ');
+alert('If you are reading this, you have found Bean's Home services' online presence! customers like you make this happen. Thank you.');
